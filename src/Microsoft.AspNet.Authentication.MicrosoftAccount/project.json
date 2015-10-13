@@ -1,0 +1,24 @@
+{
+    "version": "1.0.0-beta7",
+    "description": "ASP.NET 5 middleware that enables an application to support the Microsoft Account authentication workflow.",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/aspnet/security"
+    },
+    "dependencies": {
+        "Microsoft.AspNet.Authentication.OAuth": "1.0.0-beta7",
+        "Microsoft.Framework.NotNullAttribute.Sources": {
+            "type": "build",
+            "version": "1.0.0-beta7"
+        }
+    },
+    "frameworks": {
+        "dnx451": {},
+        "dnxcore50": {
+            "dependencies": {
+                "System.Dynamic.Runtime": "4.0.11-beta-23225",
+                "System.ObjectModel": "4.0.11-beta-23225"
+            }
+        }
+    }
+}
